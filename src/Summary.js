@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Portfolio() {
+function Summary() {
   return (
     <div className="Summary">
       <section>
@@ -27,3 +27,5 @@ export default function Portfolio() {
     </div>
   );
 }
+
+export default Summary;

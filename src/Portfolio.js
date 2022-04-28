@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Summary from "./Summary";
-import Skill from "./Skill";
+import Projects from "./Projects";
 import "./Portfolio.css";
 
 export default function Portfolio() {
@@ -9,7 +9,7 @@ export default function Portfolio() {
     <div className="Portfolio">
       <Row>
         <Col sm={3}>
-          <Skill />
+          <Projects />
         </Col>
         <Col>
           <Summary />
