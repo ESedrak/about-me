@@ -4,7 +4,7 @@ import Summary from "./Summary";
 import Projects from "./Projects";
 import "./Portfolio.css";
 
-export default function Portfolio() {
+function Portfolio() {
   return (
     <div className="Portfolio">
       <Row>
@@ -18,3 +18,5 @@ export default function Portfolio() {
     </div>
   );
 }
+
+export default Portfolio;
