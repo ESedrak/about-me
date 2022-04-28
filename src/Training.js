@@ -2,7 +2,7 @@ import React from "react";
 
 function Training() {
   return (
-    <section>
+    <section className="Training">
       <h2>Technology Training</h2>
       <h3>CS50: Introduction to Computer Science(Current)</h3>
       <h3>FreeCodeCamp (March 2022-April 2022)</h3>

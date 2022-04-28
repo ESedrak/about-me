@@ -2,6 +2,7 @@ import React from "react";
 import Training from "./Training";
 import Skills from "./Skills";
 import Personal from "./Personal";
+import Professional from "./Professional";
 
 function Summary() {
   return (
@@ -11,6 +12,8 @@ function Summary() {
       <Skills />
       <br />
       <Training />
+      <br />
+      <Professional />
     </div>
   );
 }

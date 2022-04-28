@@ -2,7 +2,7 @@ import React from "react";
 
 function Personal() {
   return (
-    <section>
+    <section className="Personal">
       <h2>Personal Summary</h2>
       <p>
         I am a curious technologist that is ready to begin working in a new
