@@ -4,6 +4,7 @@ function Personal() {
   return (
     <section className="Personal">
       <h2>Personal Summary</h2>
+      <hr />
       <p>
         I am a curious technologist that is ready to begin working in a new
         place. I have been working in the healthcare sector in the imaging

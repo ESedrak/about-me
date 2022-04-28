@@ -4,6 +4,7 @@ function Skills() {
   return (
     <section className="Skills">
       <h2>Key Skills</h2>
+      <hr />
       <ul>
         <li>Rapid conflict resolution/defuse skills</li>
         <li>Flourishing in a fast-pace-environment</li>

@@ -9,6 +9,7 @@ function Projects() {
     <div className="Projects">
       <section>
         <h2>Projects</h2>
+        <hr />
         <h3>Cocktail List</h3>
         <a
           href="https://zesty-alfajores-250e4e.netlify.app/"

@@ -4,6 +4,7 @@ function Training() {
   return (
     <section className="Training">
       <h2>Technology Training</h2>
+      <hr />
       <h3>CS50: Introduction to Computer Science(Current)</h3>
       <h3>FreeCodeCamp (March 2022-April 2022)</h3>
       <p>Responsive Web Design</p>
