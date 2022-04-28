@@ -38,8 +38,8 @@ function Contact() {
       <div className="Contact">
         <h2>Contact me</h2>
         <hr />
-        <Row>
-          <form onSubmit={handleSubmit}>
+        <Row className="Contact-form">
+          <form onSubmit={handleSubmit} className="Contact-form">
             <Col>
               <input
                 type="text"
