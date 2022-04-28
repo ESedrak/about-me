@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <div className="Portfolio">
       <Row>
-        <Col sm={3}>
+        <Col sm={4}>
           <Projects />
         </Col>
         <Col>
