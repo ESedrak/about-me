@@ -1,11 +1,12 @@
-.Portfolio section {
+.Summary section {
   padding: 20px;
   border: 2px solid black;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-bottom: 10px;
 }
 
-.Portfolio section:hover {
+.Summary section:hover {
   transform: scale(1.1);
   transition: 1s;
 }

@@ -5,8 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
-import Footer from "./Footer";
-import Personal from "./Personal";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
