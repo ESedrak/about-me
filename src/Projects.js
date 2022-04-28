@@ -1,6 +1,8 @@
 import React from "react";
 import cocktail from "./images/cocktail-thumbnail.JPG";
 import dictionary from "./images/dictionary-thumbnail.JPG";
+import weatherReact from "./images/weather-react-thumbnail.JPG";
+import weather from "./images/weather-thumbnail.JPG";
 
 function Projects() {
   return (
@@ -24,6 +26,28 @@ function Projects() {
           <img
             src={dictionary}
             alt="dictionary word finding app"
+            width="100%"
+          ></img>
+        </a>
+        <h3>Weather App</h3>
+        <p> Using React</p>
+        <a
+          href="https://charming-pika-1b949c.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={weatherReact} alt="weather react" width="100%"></img>
+        </a>
+        <h3>Weather App</h3>
+        <p> Using Vanilla JS</p>
+        <a
+          href="https://wonderful-blackwell-a882e9.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={weather}
+            alt="weather vanilla javascript"
             width="100%"
           ></img>
         </a>
