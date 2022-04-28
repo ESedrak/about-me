@@ -1,11 +1,12 @@
 .Summary section {
   padding: 20px;
-  border: 2px solid black;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border: 2px solid white;
+  box-shadow: 0 10px 20px white, 0 6px 6px white;
   margin-left: 40px;
   margin-bottom: 10px;
   margin-right: 30px;
-  background-color: aliceblue;
+  background-color: black;
+  color: white;
 }
 
 .Summary section:hover {
