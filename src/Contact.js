@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { Row, Col } from "react-bootstrap";
 import emailjs from "emailjs-com";
+import Details from "./Details";
 
 function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    // using emailJs to send receiving messages to my email
     emailjs
       .sendForm(
         "service_abatqf1",
@@ -27,17 +28,16 @@ function Contact() {
   if (submitted) {
     return (
       <div className="Contact-submit">
-        <h2>Contact me</h2>
-        <hr />
+        {/* Created Component just for contact details, to minimise repitition */}
+        <Details />
         <h3>Thank you!</h3>
-        <h4>Emails are responded to within 48 hours</h4>
+        <h4>Messages are responded to within 48 hours</h4>
       </div>
     );
   } else {
     return (
       <div className="Contact">
-        <h2>Contact me</h2>
-        <hr />
+        <Details />
         <Row className="Contact-form">
           <form onSubmit={handleSubmit} className="Contact-form">
             <Col>
