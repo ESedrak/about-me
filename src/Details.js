@@ -1,7 +1,6 @@
 import React from "react";
 import phoneLogo from "./images/phone.jpg";
 import githubLogo from "./images/github.png";
-import locationLogo from "./images/location.JPG";
 import "./Details.css";
 
 function Details() {
