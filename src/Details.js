@@ -17,10 +17,6 @@ function Details() {
         <img src={githubLogo} alt="github" width="20px" />
         <a href="https://github.com/ESedrak">github.com/ESedrak</a>
       </span>
-      <span className="Details-info">
-        <img src={locationLogo} alt="address" width="10px" />
-        Camberwell, Vic
-      </span>
       <hr />
     </div>
   );
