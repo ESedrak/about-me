@@ -38,6 +38,7 @@ function Contact() {
     return (
       <div className="Contact">
         <Details />
+        <p>Or message below</p>
         <Row className="Contact-form">
           <form onSubmit={handleSubmit} className="Contact-form">
             <Col>

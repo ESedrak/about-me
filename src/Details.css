@@ -1,0 +1,12 @@
+.Details-info {
+  margin-right: 10px;
+}
+
+.Details a {
+  text-decoration: none;
+  color: white;
+}
+
+.Details a:hover {
+  color: pink;
+}
