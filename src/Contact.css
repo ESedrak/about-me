@@ -19,3 +19,21 @@
 .Contact .form-control {
   margin: 10px 30px;
 }
+
+.Contact button {
+  border: 1px solid black;
+  font-size: 20px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: 1px 2px 4px black;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(135deg, grey, rgb(61, 56, 56), grey);
+  line-height: 30px;
+}
+
+.Contact button:hover {
+  background: white;
+  border: 1px solid white;
+  color: black;
+}

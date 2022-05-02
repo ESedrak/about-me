@@ -47,6 +47,7 @@ function Contact() {
                 placeholder="Your name"
                 name="name"
                 className="form-control"
+                required
               ></input>
             </Col>
             <Col>
@@ -55,6 +56,7 @@ function Contact() {
                 placeholder="Email"
                 name="user_email"
                 className="form-control"
+                required
               ></input>
             </Col>
             <Col>
@@ -62,6 +64,7 @@ function Contact() {
                 placeholder="Your message"
                 className="form-control"
                 name="message"
+                required
               />
             </Col>
             <button type="submit">Send</button>
