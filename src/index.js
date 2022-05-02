@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // To help find the structure of this Page
 // 1: App
-// 2: Portfolio and Footer
+// 2: Portfolio
 //  3:(In Portfolio) Projects, Summary, Contact
 // 4: (In Summary) Personal, Skills, Training, Professional
 // 5:(In Contact) Details

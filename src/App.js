@@ -1,6 +1,5 @@
 import "./App.css";
 import Portfolio from "./Portfolio";
-import Footer from "./Footer";
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
         <h1>Elizabeth Sedrak</h1>
       </header>
       <Portfolio />
-      <Footer />
     </div>
   );
 }
