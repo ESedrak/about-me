@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Summary from "./Summary";
 import Projects from "./Projects";
-import Contact from "./Contact";
 
 function Portfolio() {
   return (
@@ -13,7 +12,6 @@ function Portfolio() {
         </Col>
         <Col>
           <Summary />
-          <Contact />
         </Col>
       </Row>
     </div>
