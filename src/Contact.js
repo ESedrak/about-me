@@ -56,6 +56,7 @@ function Contact() {
                 placeholder="Email"
                 name="user_email"
                 className="form-control"
+                width="100px"
                 required
               ></input>
             </Col>
