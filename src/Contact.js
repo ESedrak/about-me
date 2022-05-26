@@ -39,37 +39,39 @@ function Contact() {
       <div className="Contact">
         <Details />
         <p>Or message below</p>
-        <Row className="Contact-form">
-          <form onSubmit={handleSubmit} className="Contact-form">
-            <Col>
-              <input
-                type="text"
-                placeholder="Your name"
-                name="name"
-                className="form-control"
-                required
-              ></input>
-            </Col>
-            <Col>
-              <input
-                type="email"
-                placeholder="Email"
-                name="user_email"
-                className="form-control"
-                width="100px"
-                required
-              ></input>
-            </Col>
-            <Col>
-              <textarea
-                placeholder="Your message"
-                className="form-control"
-                name="message"
-                required
-              />
-            </Col>
-            <button type="submit">Send</button>
-          </form>
+        <Row>
+          <div className="Contact-group">
+            <form onSubmit={handleSubmit} className="Contact-form">
+              <Col>
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  name="name"
+                  className="form-control"
+                  required
+                ></input>
+              </Col>
+              <Col>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="user_email"
+                  className="form-control"
+                  width="100px"
+                  required
+                ></input>
+              </Col>
+              <Col>
+                <textarea
+                  placeholder="Your message"
+                  className="form-control"
+                  name="message"
+                  required
+                />
+              </Col>
+              <button type="submit">Send</button>
+            </form>
+          </div>
         </Row>
       </div>
     );
