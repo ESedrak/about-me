@@ -17,7 +17,7 @@ function Projects() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={cocktail} alt="cocktail list" width="100%"></img>
+          <img src={cocktail} alt="cocktail list" width="100%" />
         </a>
       </div>
       <div className="Projects-section">
@@ -31,7 +31,7 @@ function Projects() {
             src={dictionary}
             alt="dictionary word finding app"
             width="100%"
-          ></img>
+          />
         </a>
       </div>
       <div className="Projects-section">
@@ -42,7 +42,7 @@ function Projects() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={weatherReact} alt="weather react" width="100%"></img>
+          <img src={weatherReact} alt="weather react" width="100%" />
         </a>
       </div>
       <div className="Projects-section">
@@ -53,11 +53,7 @@ function Projects() {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src={weather}
-            alt="weather vanilla javascript"
-            width="100%"
-          ></img>
+          <img src={weather} alt="weather vanilla javascript" width="100%" />
         </a>
       </div>
     </div>
