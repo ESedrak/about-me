@@ -5,7 +5,7 @@ function Interests() {
     <section className="Interests">
       <h2>Interests</h2>
       <hr />
-      <ul rol="presentation">
+      <ul role="presentation">
         <li>Mixologist (Cocktails)</li>
         <li>Guitar</li>
         <li>Gardening</li>
