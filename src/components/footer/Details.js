@@ -1,19 +1,20 @@
 import React from "react";
-import phoneLogo from "../../images/phone.jpg";
-import githubLogo from "../../images/github.png";
 import "./Details.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/fontawesome-free-brands";
 
 function Details() {
   return (
     <div className="Details">
       <h2>Contact me</h2>
-      <span className="Details-info">✉ elizabeth_sedrak@hotmail.com</span>
+      <span className="Details-info">✉ elizabeth.sedrak94@gmail.com</span>
       <span className="Details-info">
-        <img src={phoneLogo} alt="mobile number" width="20px" />
+        <FontAwesomeIcon icon={faPhone} />
         0421621826
       </span>
       <span className="Details-info">
-        <img src={githubLogo} alt="github" width="20px" />
+        <FontAwesomeIcon icon={faGithub} />
         <a href="https://github.com/ESedrak">github.com/ESedrak</a>
       </span>
       <hr />

@@ -1,8 +1,6 @@
 import "./App.css";
 import Portfolio from "./components/main/Portfolio";
 import Contact from "./components/footer/Contact";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -16,7 +14,6 @@ function App() {
           >
             {" "}
             My Portfolio
-            <FontAwesomeIcon icon={faThumbsUp} />
           </a>
         </h4>
       </header>
