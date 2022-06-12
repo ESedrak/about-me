@@ -14,6 +14,7 @@ function App() {
           >
             {" "}
             My Portfolio
+            <FontAwesomeIcon icon="fa-brands fa-bootstrap" />
           </a>
         </h4>
       </header>
