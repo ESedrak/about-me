@@ -6,6 +6,7 @@ function Training() {
       <h2>Technology Training</h2>
       <hr />
       <h3>Generation Australia: Junior Web Developer(Current)</h3>
+      <p>HTML, CSS, Javascript, Bootstrap, Git, Github, Teamwork projects</p>
       <h3>FreeCodeCamp (March 2022-April 2022)</h3>
       <p>Responsive Web Design</p>
       <p>Javascript Algorithms and Data Structures</p>
