@@ -2,6 +2,10 @@
   margin-right: 10px;
 }
 
+.Details-info:hover {
+  left: 6px;
+}
+
 .Details a {
   text-decoration: none;
   color: white;
