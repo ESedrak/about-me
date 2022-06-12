@@ -1,6 +1,6 @@
 import React from "react";
-import phoneLogo from "./images/phone.jpg";
-import githubLogo from "./images/github.png";
+import phoneLogo from "../../images/phone.jpg";
+import githubLogo from "../../images/github.png";
 import "./Details.css";
 
 function Details() {

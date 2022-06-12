@@ -1,6 +1,6 @@
 import "./App.css";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+import Portfolio from "./components/main/Portfolio";
+import Contact from "./components/footer/Contact";
 
 function App() {
   return (

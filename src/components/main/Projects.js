@@ -1,8 +1,8 @@
 import React from "react";
-import cocktail from "./images/cocktail-thumbnail.jpeg";
-import dictionary from "./images/dictionary-thumbnail.JPG";
-import weatherReact from "./images/weather-react-thumbnail.JPG";
-import weather from "./images/weather-thumbnail.JPG";
+import cocktail from "../../images/cocktail-thumbnail.jpeg";
+import dictionary from "../../images/dictionary-thumbnail.JPG";
+import weatherReact from "../../images/weather-react-thumbnail.JPG";
+import weather from "../../images/weather-thumbnail.JPG";
 import "./Projects.css";
 
 function Projects() {
