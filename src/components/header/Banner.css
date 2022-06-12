@@ -1,0 +1,24 @@
+.Banner h1 {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.Banner-link {
+  text-decoration: none;
+  color: white;
+}
+
+.Banner-socialMedia a {
+  float: right;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.Banner-socialMedia a:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 50%;
+}

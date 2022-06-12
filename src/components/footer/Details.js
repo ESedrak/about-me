@@ -13,17 +13,6 @@ function Details() {
         <FontAwesomeIcon icon={faPhone} />
         0421621826
       </span>
-      <span className="Details-info">
-        <a href="https://github.com/ESedrak">
-          <FontAwesomeIcon icon={faGithub} /> github.com/ESedrak
-        </a>
-      </span>
-      <span className="Details-info">
-        <a href="https://www.linkedin.com/in/elizabeth-sedrak/">
-          <FontAwesomeIcon icon={faLinkedin} />{" "}
-          linkedin.com/in/elizabeth-sedrak/
-        </a>
-      </span>
       <hr />
     </div>
   );
