@@ -15,10 +15,11 @@
   float: right;
   padding: 0.5rem;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .Banner-socialMedia a:hover {
   background-color: rgb(255, 255, 255, 0.5);
-  border-radius: 50%;
+  border-radius: 100%;
+  transform: scale(1.2);
 }

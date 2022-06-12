@@ -2,7 +2,6 @@ import React from "react";
 import "./Details.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/fontawesome-free-brands";
 
 function Details() {
   return (
