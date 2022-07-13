@@ -8,9 +8,6 @@ function Details() {
     <div className="Details">
       <h2>Contact</h2>
       <span className="Details-info">✉ elizabeth.sedrak94@gmail.com</span>
-      <span className="Details-info">
-        <FontAwesomeIcon icon={faPhone} /> 0421621826
-      </span>
       <hr />
     </div>
   );
