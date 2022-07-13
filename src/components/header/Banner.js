@@ -23,7 +23,7 @@ function Banner() {
       </span>
       <a
         className="Banner-link"
-        href="https://sparkling-pasca-b70e55.netlify.app/"
+        href="https://www.elizabeth-sedrak.com"
       >
         <h1>Elizabeth Sedrak</h1>
       </a>
